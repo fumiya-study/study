@@ -1,6 +1,6 @@
-api-version: v1
-kind: pod
-matadata: 
+apiVersion: v1
+kind: Pod
+metadata: 
   name: sample-pod
 spec:
   containers:
