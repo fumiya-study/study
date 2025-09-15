@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: nginx-containers
-    image: nginx
+    image: nginx:1.16
