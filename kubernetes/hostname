@@ -1,0 +1,13 @@
+sample-pod
+
+
+### sample-podから/etc/hostnameをコピー
+kubectl cp sample-pod:etc/hostname ./hostname
+
+```
+$ cat hostname 
+sample-pod
+```
+
+### localからpodへコピー
+kubectl cp hostname sample-pod:tmp/cp-hostname

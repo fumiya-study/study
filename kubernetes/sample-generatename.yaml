@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
+  # 自動で採番してくれる。kubectl createでしか作成できない。
   generateName: sample-generatename-
 spec:
   containers:
