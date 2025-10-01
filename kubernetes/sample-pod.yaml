@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata: 
   name: sample-pod
+# 起動するnamespaceを変更
+  namespace: test
 spec:
   containers:
   - name: nginx-containers
