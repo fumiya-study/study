@@ -1,4 +1,0 @@
-apiversion: v1
-kind: pod
-metadata: 
-  name: sample-entrypoint
