@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: sample-workingdirectory
+spec: 
+  containers:
+  - name: nginx-containers
+    image: nginx:1.16
+    # ディレクトリの指定
+    workingDir: /tmp
